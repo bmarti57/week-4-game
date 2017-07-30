@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<strong><h1 style="color: blue">Crystal Collector Game</h1></strong><br><br><br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<p>The computer will generate a random number at the start of the game.</p><br>
+				<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p><br>
+				<p>You win the game by matching your total score to the computer's random number. You will lose if your score goes above the random number.</p><br>
+				<p>The value of each crystal is hidden from you until you click on it.</p><br>
+				<p>Each time the game starts, the game will change the values of each crystal.</p>
+				<strong><p style="font-size: 18px">PRESS ENTER TO BEGIN!</p></strong>
+			</div>
+		</div><!--Instructions Row-->
+	</div><!--Instructions Container-->
+
+	<div class="container">
+		<div class="row">
+			<div id="computer_score" class="col-md-5">
+				
+			</div><!--Computer Score Column-->
+			<div id="user_score" class="col-md-5">
+				
+			</div><!--User Score Column-->
+			<div id="wins_losses" class="col-md-2">
+				
+			</div><!--Wins/Losses Column-->
+		</div><!--Row-->
+	</div><!--Container-->
+
+	<script type="text/javascript" src="assets/javascript/game.js">
+		
+	</script>
+	
+</body>
+</html>
