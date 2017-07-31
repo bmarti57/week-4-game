@@ -11,3 +11,20 @@ h1 {
 	background-color: blue;
 	color: white;
 }
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+.outer_box {
+	height: 200px;
+	background-color: blue;
+	color: white;
+}
+
+.inner_box {
+	height: 200px;
+	background-color: red;
+	color: white;
+}
