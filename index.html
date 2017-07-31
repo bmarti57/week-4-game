@@ -20,7 +20,7 @@
 				<p>You win the game by matching your total score to the computer's random number. You will lose if your score goes above the random number.</p><br>
 				<p>The value of each crystal is hidden from you until you click on it.</p><br>
 				<p>Each time the game starts, the game will change the values of each crystal.</p>
-				<strong><p style="font-size: 18px">PRESS ENTER TO BEGIN!</p></strong>
+				<strong><p style="font-size: 18px">CLICK A CRYSTAL TO BEGIN!</p></strong>
 			</div>
 		</div><!--Instructions Row-->
 	</div><!--Instructions Container-->
@@ -29,15 +29,15 @@
 
 	<div class="container">
 		<div class="row">
-			<div id="computer_score" class="col-md-5 outer_box">
-				<h2>Random Number: </h2>
+			<div class="col-md-5 outer_box">
+				<h2 id="randomNumber">Random Number: </h2>
 			</div><!--Computer Score Column-->
-			<div id="user_score" class="col-md-5 inner_box">
-				<h2>Your Score: </h2>
+			<div class="col-md-5 inner_box">
+				<h2 id="userScore">Your Score: </h2>
 			</div><!--User Score Column-->
-			<div id="wins_losses" class="col-md-2 outer_box">
-				<h3>Wins: </h3><br>
-				<h3>Losses: </h3>
+			<div class="col-md-2 outer_box">
+				<h3 id="wins">Wins: </h3><br>
+				<h3 id="losses">Losses: </h3>
 			</div><!--Wins/Losses Column-->
 		</div><!--Row-->
 	</div><!--Container-->
@@ -47,16 +47,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<img class="sapphire" src="assets/images/sapphire.png" alt="sapphire">
+				<img id="sapphire" src="assets/images/sapphire.png" alt="sapphire">
 			</div>
 			<div class="col-md-3">
-				<img class="ruby" src="assets/images/redcrystal.png" alt="ruby">
+				<img id="ruby" src="assets/images/redcrystal.png" alt="ruby">
 			</div>
 			<div class="col-md-3">
-				<img class="emerald" src="assets/images/emerald.png" alt="emerald">
+				<img id="emerald" src="assets/images/emerald.png" alt="emerald">
 			</div>
 			<div class="col-md-3">
-				<img class="diamond" src="assets/images/diamond.png" alt="diamond">
+				<img id="diamond" src="assets/images/diamond.png" alt="diamond">
 			</div>
 		</div>
 	</div>
@@ -64,6 +64,10 @@
 	<script type="text/javascript" src="assets/javascript/game.js">
 		
 	</script>
+		
+		<br><br><br><br>
+
+	<footer class="footer"><span class="glyphicon glyphicon-copyright-mark"></span>Copyright 2017 Brian Martin</footer>
 	
 </body>
 </html>
