@@ -6,6 +6,10 @@ h1 {
 	text-align: center;
 }
 
+.col-md-4 {
+	margin-right: 10px;
+}
+
 .col-lg-8 {
 	text-align: center;
 	background-color: blue;
@@ -41,3 +45,4 @@ footer {
 	width: 100%;
 	padding-top: 25px;
 }
+
